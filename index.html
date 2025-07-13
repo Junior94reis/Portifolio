@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio Junior Reis</title>
+</head>
+
+<body>
+  
+    <nav class="navegacao">
+        <ul class="menu">
+            <li><a href="#inicio" class="menu-link">inicio</a></li>
+            <li><a href="#sobre" class="menu-link">Sobre</a></li>
+            <li><a href="#projetos" class="menu-link">Projetos</a></li>
+            <li><a href="#contatos" class="menu-link">Contatos</a></li>
+        </ul>
+    </nav>
+    <main id="inicio" class="cabecalho">
+
+        <img src="/assets/images/perfil.jpg" alt="" class="fotoPerfil">
+        <h1>Junior Reis</h1>
+        <p>Desenvolvedor Front End</p>
+
+    </main>
+    <section id="sobre" class="sobre">
+        <h2>Sobre Mim</h2>
+        <div class="sobre-caixa">
+            <p class="sobre-paragrafo">Olá! Meu nome é Junior Reis e estou em constante evolução para me tornar um
+                programador completo. Atualmente, me dedico ao desenvolvimento front-end, com conhecimentos em HTML5,
+                CSS3 e JavaScript, buscando sempre criar interfaces funcionais, bonitas e responsivas.
+                Sou apaixonado por tecnologia e programação, e acredito no aprendizado contínuo como chave para crescer
+                na área. Estou sempre estudando novas ferramentas, praticando com projetos próprios e explorando os
+                desafios que cada linha de código pode oferecer.
+                Meu objetivo é atuar profissionalmente como desenvolvedor, contribuir com soluções reais e seguir
+                evoluindo como parte de times de tecnologia. Estou aberto a oportunidades e pronto para encarar novos
+                desafios!</p>
+        </div>
+    </section>
+    <section id="projetos" class="projetos">
+        <h2 class="projetos-titulo">Meus Projetos</h2>
+        <div class="projetos-caixa scroll-container">
+            
+                <div class="projetos-card"> 
+                    <a href="https://junior94reis.github.io/Desafio-n1/" target="_blank">
+                    <img src="/assets/images/projeto1.png" alt="">
+                    </a>
+                    <h3>Landing page 01</h3>
+                    
+                </div>
+                <div class="projetos-card">
+                    <a href="https://junior94reis.github.io/Desafio-n2/" target="_blank">
+                    <img src="/assets/images/projeto2.png" alt="">
+                    </a>
+                    <h3>Landing page 02</h3>
+                    
+
+                </div>
+                <div class="projetos-card"><a href="https://junior94reis.github.io/Desafio-n3/" target="_blank">
+                    <img src="/assets/images/projeto3.png" alt="">
+                    </a>
+                    <h3>Landing page 03</h3>
+                    
+
+                </div>
+                <div class="projetos-card">
+                    <a href="https://junior94reis.github.io/Desafio-n4/" target="_blank">
+                    <img src="/assets/images/projeto4.png" alt="">
+                    </a>
+                    <h3>Landing page 04</h3>
+                    
+
+                </div>
+                <div class="projetos-card">
+                    <a href="https://junior94reis.github.io/Desafio-n5/" target="_blank">
+                    <img src="/assets/images/projeto5.png" alt="">
+                    </a>
+                    <h3>Landing page 05</h3>
+                    
+
+                </div>
+                <div class="projetos-card">
+                    <a href="https://junior94reis.github.io/Desafio-n6/" target="_blank">
+                    <img src="/assets/images/projeto6.png" alt="">
+                    </a>
+                    <h3>Landing page 06</h3>
+                    
+
+                </div>
+                <div class="projetos-card">
+                    <a href="https://junior94reis.github.io/Desafio-n7/" target="_blank">
+                    <img src="/assets/images/projeto7.png" alt="">
+                    </a>
+                    <h3>Landing page 07</h3>
+                    
+
+                </div>
+
+            
+        </div>
+    </section>
+    <section id="contatos" class="contatos">
+        <h2 class="contatos-titulo">Entre em Contato</h2>
+        <form action="" class="formulario-contato" onsubmit="enviarWhats(event)" id="formulario">
+            <div class="nome-form">
+                <input type="text" placeholder="Nome" id="nome" class="campo-form">
+            </div>
+            <div class="grupo-form">
+                <textarea class="text-form" id="mensagem" name="" placeholder="Digite sua Mensagem" id=""></textarea>
+            </div>
+            <button type="submit" class="botao-form">Enviar Whatssap</button>
+        </form>
+    </section>
+
+
+
+
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
