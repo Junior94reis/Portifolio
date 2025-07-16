@@ -268,6 +268,18 @@ margin-bottom: 1.5rem;
 }
 .projetos h2{
     font-size: 2rem;
+    
+}
+.navegacao{
+    position:fixed;
+    
+    
+}
+.projetos{
+    padding: 6rem 0;
+}
+.projetos-card{
+    margin: 10px;
 }
 }
 
