@@ -9,9 +9,9 @@
 </head>
 
 <body>
-  
+
     <!-- Previsão do Tempo -->
-    <div class="caixa-maior">
+    <!-- <div class="caixa-maior">
 
         <input class="input-cidade" placeholder="Digite o nome da cidade">
         <button id="btn-previsao" onclick="cliqueiNoBotao()">
@@ -32,7 +32,7 @@
             </div>
             <p class="umidade">Umidade: 70%</p>
         </div>
-    </div>
+    </div> -->
     <!-- Previsão do Tempo -->
     <nav class="navegacao">
         <ul class="menu">
@@ -42,87 +42,114 @@
             <li><a href="#contatos" class="menu-link">Contatos</a></li>
         </ul>
     </nav>
-    <main id="inicio" class="cabecalho">
+    <div class="perfil-container">
+                <img src="./assets/images/perfil.jpg" alt="" class="fotoPerfil">
+                <span class="nome-adm">Junior Reis</span>
+    </div>
+    <!-- <main id="inicio" class="cabecalho">
 
         <img src="./assets/images/perfil.jpg" alt="" class="fotoPerfil">
         <h1>Junior Reis</h1>
         <p>Desenvolvedor Front End</p>
 
-    </main>
+    </main> -->
+    <main class="hero" id="inicio">
+  <div class="hero-content">
+    <span class="tagline">Criador de Sites Profissionais</span>
+    <h1>Seu negócio online, com a performance que ele merece</h1>
+    <p>Desenvolvo sites modernos, rápidos e responsivos que fortalecem sua marca e atraem mais clientes.</p>
+    <div class="hero-buttons">
+      <a href="#projetos" class="btn primary">Ver Portfólio</a>
+      
+      <form action="" class="formulario-contato" onsubmit="enviarWhats2(event)" id="formulario">
+            
+            <button type="submit" class="botao-form">Solicitar Orçamento</button>
+        </form>
+      
+    </div>
+  </div>
+</main>
+    
     <section id="sobre" class="sobre">
         <h2>Sobre Mim</h2>
         <div class="sobre-caixa">
-            <p class="sobre-paragrafo">Olá! Meu nome é Junior Reis e estou em constante evolução para me tornar um
-                programador completo. Atualmente, me dedico ao desenvolvimento front-end, com conhecimentos em HTML5,
-                CSS3 e JavaScript, buscando sempre criar interfaces funcionais, bonitas e responsivas.
-                Sou apaixonado por tecnologia e programação, e acredito no aprendizado contínuo como chave para crescer
-                na área. Estou sempre estudando novas ferramentas, praticando com projetos próprios e explorando os
-                desafios que cada linha de código pode oferecer.
-                Meu objetivo é atuar profissionalmente como desenvolvedor, contribuir com soluções reais e seguir
-                evoluindo como parte de times de tecnologia. Estou aberto a oportunidades e pronto para encarar novos
-                desafios!</p>
+            <p class="sobre-paragrafo">Sou desenvolvedor front-end especializado na criação de sites profissionais para
+                empresas que buscam se destacar no mundo digital. Trabalho com tecnologias modernas como HTML5, CSS3 e
+                JavaScript, criando páginas rápidas, seguras e com design responsivo para que sua marca seja bem
+                apresentada em qualquer dispositivo.
+
+                Meu diferencial está em entender a essência de cada negócio, desenvolvendo soluções sob medida que vão
+                além da estética. Cada projeto é pensado para transmitir credibilidade, fortalecer sua marca e atrair
+                mais clientes.
+
+                Acredito que um site não é apenas uma vitrine online, mas sim uma ferramenta estratégica para gerar
+                oportunidades e aumentar resultados. Por isso, uno design, funcionalidade e desempenho para entregar um
+                produto que realmente faça a diferença para sua empresa.
+
+                Se você deseja um site moderno, otimizado e alinhado com a identidade da sua marca, entre em contato e
+                vamos construir juntos a sua presença digital de sucesso.</p>
         </div>
     </section>
     <section id="projetos" class="projetos">
         <h2 class="projetos-titulo">Meus Projetos</h2>
         <div class="projetos-caixa scroll-container">
-            
-                <div class="projetos-card"> 
-                    <a href="https://junior94reis.github.io/Desafio-n1/" target="_blank">
+
+            <div class="projetos-card">
+                <a href="https://junior94reis.github.io/Desafio-n1/" target="_blank">
                     <img src="./assets/images/projeto1.png" alt="">
-                    </a>
-                    <h3>Landing page 01</h3>
-                    
-                </div>
-                <div class="projetos-card">
-                    <a href="https://junior94reis.github.io/Desafio-n2/" target="_blank">
+                </a>
+                <h3>Landing page 01</h3>
+
+            </div>
+            <div class="projetos-card">
+                <a href="https://junior94reis.github.io/Desafio-n2/" target="_blank">
                     <img src="./assets/images/projeto2.png" alt="">
-                    </a>
-                    <h3>Landing page 02</h3>
-                    
+                </a>
+                <h3>Landing page 02</h3>
 
-                </div>
-                <div class="projetos-card"><a href="https://junior94reis.github.io/Desafio-n3/" target="_blank">
+
+            </div>
+            <div class="projetos-card"><a href="https://junior94reis.github.io/Desafio-n3/" target="_blank">
                     <img src="./assets/images/projeto3.png" alt="">
-                    </a>
-                    <h3>Landing page 03</h3>
-                    
+                </a>
+                <h3>Landing page 03</h3>
 
-                </div>
-                <div class="projetos-card">
-                    <a href="https://junior94reis.github.io/Desafio-n4/" target="_blank">
+
+            </div>
+            <div class="projetos-card">
+                <a href="https://junior94reis.github.io/Desafio-n4/" target="_blank">
                     <img src="./assets/images/projeto4.png" alt="">
-                    </a>
-                    <h3>Landing page 04</h3>
-                    
+                </a>
+                <h3>Landing page 04</h3>
 
-                </div>
-                <div class="projetos-card">
-                    <a href="https://junior94reis.github.io/Desafio-n5/" target="_blank">
+
+            </div>
+            <div class="projetos-card">
+                <a href="https://junior94reis.github.io/Desafio-n5/" target="_blank">
                     <img src="./assets/images/projeto5.png" alt="">
-                    </a>
-                    <h3>Landing page 05</h3>
-                    
+                </a>
+                <h3>Landing page 05</h3>
 
-                </div>
-                <div class="projetos-card">
-                    <a href="https://junior94reis.github.io/Desafio-n6/" target="_blank">
+
+            </div>
+            <div class="projetos-card">
+                <a href="https://junior94reis.github.io/Desafio-n6/" target="_blank">
                     <img src="./assets/images/projeto6.png" alt="">
-                    </a>
-                    <h3>Landing page 06</h3>
-                    
+                </a>
+                <h3>Landing page 06</h3>
 
-                </div>
-                <div class="projetos-card">
-                    <a href="https://junior94reis.github.io/Desafio-n7/" target="_blank">
+
+            </div>
+            <div class="projetos-card">
+                <a href="https://junior94reis.github.io/Desafio-n7/" target="_blank">
                     <img src="./assets/images/projeto7.png" alt="">
-                    </a>
-                    <h3>Landing page 07</h3>
-                    
+                </a>
+                <h3>Landing page 07</h3>
 
-                </div>
 
-            
+            </div>
+
+
         </div>
     </section>
     <section id="contatos" class="contatos">
@@ -135,8 +162,12 @@
                 <textarea class="text-form" id="mensagem" name="" placeholder="Digite sua Mensagem" id=""></textarea>
             </div>
             <button type="submit" class="botao-form">Enviar Whatssap</button>
+            
         </form>
     </section>
+    <footer class="site-footer">
+  <p>© 2025 ProjNet. Todos os direitos reservados.</p>
+</footer>
 
 
 
