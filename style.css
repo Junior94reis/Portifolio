@@ -87,19 +87,6 @@ body{
     color: var(--claro);
     font-weight: 600;
 }
-    /*
-.cabecalho{
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.cabecalho p {
-    font-size: 1.4rem;
-    color: var(--claro);
-} */
 
 .hero {
   background: linear-gradient(rgba(2, 4, 6, 0.567), rgba(3, 8, 17, 0.775)),
